@@ -1,0 +1,24 @@
+$main_color:#FF6F26;
+$body_color:#f7f7f7;
+$card_color:#ffffff;
+$border_color:#d9d9d9;
+$width_wrapper:1175px;
+
+*{
+  margin: 0;
+}
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+  unicode-range: U+000-5FF;
+  src: local(Roboto), url("/fonts/Roboto/Roboto-Regular.woff2") format("woff2"), url("/fonts/Roboto/Roboto-Regular.woff") format("woff");
+}
+
+body{
+  background-color:$body_color;
+  font: 15px Roboto,'sans-serif';
+  box-sizing: border-box;
+
+}
